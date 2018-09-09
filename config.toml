@@ -1,4 +1,4 @@
-base_url = "hhttps://hello-rust.show/"
+base_url = "https://hello-rust.show/"
 compile_sass = false
 theme = "feather"
 highlight_code = true
