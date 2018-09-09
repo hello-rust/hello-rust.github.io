@@ -1,0 +1,15 @@
+base_url = "hhttps://hello-rust.show/"
+compile_sass = false
+theme = "feather"
+highlight_code = true
+build_search_index = false
+title = "Hello, Rust!"
+description = "A show about the Rust programming language"
+default_language = "en"
+generate_categories_pages = true
+generate_tags_pages = true
+generate_rss = true
+
+[extra]
+feather_header_image = "/hellorust.svg"
+feather_donate_link = "https://www.patreon.com/hellorust"
