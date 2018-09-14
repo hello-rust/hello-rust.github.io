@@ -64,7 +64,7 @@
           <h4 class="title"><span class="highlight">#{{ page.extra.number }}</span> {{ page.title }} </h4>
           <div class="thumb">
             {% set thumb = page.extra.number ~ "/thumb.jpg" %}
-            <img src="{{ resize_image(path=thumb, width=160, height=160, quality=100) }}" />
+            <img src="{{ resize_image(path=thumb, width=160, height=160, quality=100) | replace(from='https://hello-rust.show', to='') }}" />
           </div>
           <p>
             {{ page.content | safe | striptags | truncate }}
