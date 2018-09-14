@@ -7,5 +7,9 @@ after_success: |
   [ $TRAVIS_PULL_REQUEST = false ] &&
   gutenberg build &&
   sudo pip install ghp-import &&
-  ghp-import -c hello-rust.show -n public &&
+  ghp-import --no-jekyll \
+            --cname=hello-rust.show \
+            --message="Hello, Rust!" \
+            --branch=master \
+            public
   git push -fq https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git master
