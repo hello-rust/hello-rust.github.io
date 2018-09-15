@@ -8,10 +8,6 @@ number = "1"
 
 {{youtube(id="STWuPMcwwbw") }}
 
-<a target="_blank" class="button"
-href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/1">&#x25b6;
-Run and edit code on Gitpod</a>
-
 <h2> This is the very first real coding episode of "Hello Rust!". Today we will write *hello world*, but by leveraging the builder pattern, enums, and traits to support different languages (hence the title "Hello Universe").
  </h2>  
 
@@ -19,7 +15,13 @@ Run and edit code on Gitpod</a>
 
 </p>
 
-Keywords: *default trait, debug trait, builder pattern*
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/1">&#x25b6;
+Run and edit code on Gitpod</a>
+
+## Keywords
+
+*default trait, debug trait, builder pattern*
 
 ## Things I mentioned during the show
 

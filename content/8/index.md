@@ -8,10 +8,6 @@ number = "8"
 
 {{youtube(id="D9r__qxtRMQ") }}
 
-<a target="_blank" class="button"
-href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/8">&#x25b6;
-Run and edit code on Gitpod</a>
-
 <h2> Today, I want to show you how to write a Python extension in Rust using pyo3. </h2>  
 
 <p>
@@ -20,7 +16,13 @@ I like tinkering with programming languages and making things faster. What's coo
 
 </p>
 
-Keywords: *Tutorial, FFI, pyo3, Module, Extension, Python*
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/8">&#x25b6;
+Run and edit code on Gitpod</a>
+
+## Keywords
+
+*Tutorial, FFI, pyo3, Module, Extension, Python*
 
 ## Things I mentioned during the show
 

@@ -8,10 +8,6 @@ number = "9"
 
 {{youtube(id="B5xYBrxVSiE") }}
 
-<a target="_blank" class="button"
-href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/9">&#x25b6;
-Run and edit code on Gitpod</a>
-
 <h2> It's hard to put into words what I like about Rust. Easier to show with a quick example about concurrency and borrowing. </h2>  
 
 <p>
@@ -20,7 +16,13 @@ Capturing the "Magic of Rust" is not easy. Luckily, I found a simpler way: show 
 
 </p>
 
-Keywords: *race-conditions, ownership, mutex, concurrency, rayon, golang, rustlang*
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/9">&#x25b6;
+Run and edit code on Gitpod</a>
+
+## Keywords
+
+*race-conditions, ownership, mutex, concurrency, rayon, golang, rustlang*
 
 ## Things I mentioned during the show
 

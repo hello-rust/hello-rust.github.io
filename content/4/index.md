@@ -8,10 +8,6 @@ number = "4"
 
 {{youtube(id="S0Vubd-C5-o") }}
 
-<a target="_blank" class="button"
-href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/4">&#x25b6;
-Run and edit code on Gitpod</a>
-
 <h2> I hack on a small application that will help me get better at touch typing.
  </h2>  
 
@@ -21,7 +17,13 @@ Not a tutorial, but just a fun hacking session to build a touch typing applicati
 
 </p>
 
-Keywords: *touch typing, application, ggez, event handling, game state, iterators, hacking, live-coding*
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/4">&#x25b6;
+Run and edit code on Gitpod</a>
+
+## Keywords
+
+*touch typing, application, ggez, event handling, game state, iterators, hacking, live-coding*
 
 ## Things I mentioned during the show
 

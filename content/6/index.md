@@ -8,10 +8,6 @@ number = "6"
 
 {{youtube(id="XJPci7GI-qg") }}
 
-<a target="_blank" class="button"
-href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/6">&#x25b6;
-Run and edit code on Gitpod</a>
-
 <h2> Let's fix a bug in my balanced brackets code and learn a few things about test organization and traits </h2>  
 
 <p>
@@ -20,7 +16,13 @@ There's some stuff to improve in my coding puzzle code from last time, balanced 
 
 </p>
 
-Keywords: *Test data providers, Parameterized tests, AsRef trait, Macros*
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/6">&#x25b6;
+Run and edit code on Gitpod</a>
+
+## Keywords
+
+*Test data providers, Parameterized tests, AsRef trait, Macros*
 
 ## Things I mentioned during the show
 
