@@ -8,6 +8,10 @@ number = "7"
 
 {{youtube(id="zb7SD0Jco6g") }}
 
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/7">&#x25b6;
+Run and edit code on Gitpod</a>
+
 <h2> Testing is hard, as can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest. </h2>  
 
 <p>

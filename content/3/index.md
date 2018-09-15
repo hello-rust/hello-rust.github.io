@@ -8,6 +8,10 @@ number = "3"
 
 {{youtube(id="a6KWRvAPsmo") }}
 
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/3">&#x25b6;
+Run and edit code on Gitpod</a>
+
 <h2> Today we will do our first code review. 
  </h2>  
 

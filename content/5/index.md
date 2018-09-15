@@ -8,6 +8,10 @@ number = "5"
 
 {{youtube(id="XcuLHO8z_RA") }}
 
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/5">&#x25b6;
+Run and edit code on Gitpod</a>
+
 <h2> Today we will do a quick interview question called "balanced brackets"
  </h2>  
 

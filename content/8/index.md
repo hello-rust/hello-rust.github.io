@@ -8,6 +8,10 @@ number = "8"
 
 {{youtube(id="D9r__qxtRMQ") }}
 
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/8">&#x25b6;
+Run and edit code on Gitpod</a>
+
 <h2> Today, I want to show you how to write a Python extension in Rust using pyo3. </h2>  
 
 <p>

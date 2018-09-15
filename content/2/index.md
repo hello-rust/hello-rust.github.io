@@ -8,6 +8,10 @@ number = "2"
 
 {{youtube(id="bS5rtxWd2yQ") }}
 
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/2">&#x25b6;
+Run and edit code on Gitpod</a>
+
 <h2> Let's talk about Python and Rust. I used to do a lot more Python than I do now, but I still love it for its beauty.  
  </h2>  
 
