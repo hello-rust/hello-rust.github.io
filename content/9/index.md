@@ -39,10 +39,15 @@ Run and edit the code on Gitpod</a>
 
 ## Errata and improvements
 
-It might come as a surprise to you, but every once in a while *even I* make a mistake. This section covers all improvements made to the code since the epsiode went live. For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/9). Thanks to all contributors! 
+It might come as a surprise to you, but every once in a while *even I* make a mistake. This section covers all improvements made to the code since the episode went live. For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/9). Thanks to all contributors!
 
 * [killercup](https://github.com/killercup) added [an alternative approach](https://github.com/hello-rust/show/pull/45) that creates one hashmap per file and uses Rayon's reduce to unify them.
 * [euantorano](https://github.com/euantorano) provided [an alternative Go approach to counting words](https://github.com/hello-rust/show/pull/46).
+* [killercup](https://github.com/killercup) added [benchmarks](https://github.com/hello-rust/show/pull/48) because <s>he seems to have too much free time at his hands</s> he was curios and people kept asking.
+    Here's a quick preview (but also run them on your own machine!):
+    
+    ![](https://cdn.rawgit.com/hello-rust/show/a8de0d77a8cb2672fe1f37f4d9251950038b7b50/episode/9/bench/results/ep9-violin.svg)
+
 
 ## Meta
 
