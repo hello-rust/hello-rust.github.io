@@ -19,7 +19,7 @@ One of the first things I was missing in Rust when coming from Python were List 
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/2">&#x25b6;
-Run and edit code on Gitpod</a>
+Run and edit the code on Gitpod</a>
 
 ## Keywords
 

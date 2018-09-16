@@ -19,7 +19,7 @@ Not a tutorial, but just a fun hacking session to build a touch typing applicati
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/4">&#x25b6;
-Run and edit code on Gitpod</a>
+Run and edit the code on Gitpod</a>
 
 ## Keywords
 

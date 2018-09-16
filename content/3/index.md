@@ -19,7 +19,7 @@ I picked a library from my colleague [Luca Pizzamiglio](https://github.com/pizza
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/3">&#x25b6;
-Run and edit code on Gitpod</a>
+Run and edit the code on Gitpod</a>
 
 ## Keywords
 

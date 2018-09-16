@@ -18,7 +18,7 @@ Capturing the "Magic of Rust" is not easy. Luckily, I found a simpler way: show 
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/9">&#x25b6;
-Run and edit code on Gitpod</a>
+Run and edit the code on Gitpod</a>
 
 ## Keywords
 
@@ -39,10 +39,7 @@ Run and edit code on Gitpod</a>
 
 ## Errata and improvements
 
-It might come as a surprise to you, but every once in a while *even I* make a mistake.  
-This section covers all improvements made to the code since the epsiode went live.  
-For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/9).
-Thanks to all contributors!  
+It might come as a surprise to you, but every once in a while *even I* make a mistake. This section covers all improvements made to the code since the epsiode went live. For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/9). Thanks to all contributors! 
 
 * [killercup](https://github.com/killercup) added [an alternative approach](https://github.com/hello-rust/show/pull/45) that creates one hashmap per file and uses Rayon's reduce to unify them.
 * [euantorano](https://github.com/euantorano) provided [an alternative Go approach to counting words](https://github.com/hello-rust/show/pull/46).

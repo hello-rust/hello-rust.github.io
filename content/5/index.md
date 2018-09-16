@@ -19,7 +19,7 @@ I maintain a list of common interview questions on Github, that is perfect for s
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/5">&#x25b6;
-Run and edit code on Gitpod</a>
+Run and edit the code on Gitpod</a>
 
 ## Keywords
 

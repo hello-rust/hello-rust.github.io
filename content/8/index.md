@@ -18,7 +18,7 @@ I like tinkering with programming languages and making things faster. What's coo
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/8">&#x25b6;
-Run and edit code on Gitpod</a>
+Run and edit the code on Gitpod</a>
 
 ## Keywords
 
@@ -34,10 +34,7 @@ Run and edit code on Gitpod</a>
 
 ## Errata and improvements
 
-It might come as a surprise to you, but every once in a while *even I* make a mistake.  
-This section covers all improvements made to the code since the epsiode went live.  
-For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/8).
-Thanks to all contributors!  
+It might come as a surprise to you, but every once in a while *even I* make a mistake. This section covers all improvements made to the code since the epsiode went live. For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/8). Thanks to all contributors! 
 
 * Update code to work with latest version of pyo3; formatting and cleanup for stabilizations. See [changes here](https://github.com/hello-rust/show/pull/47).
 
