@@ -2,6 +2,11 @@
 -include .env
 export
 
+.PHONY: serve
+serve:
+    gutenberg serve
+
+.PHONY: purge
 purge:
 	curl -X POST "https://api.cloudflare.com/client/v4/zones/$(ZONE)/purge_cache" \
      -H "X-Auth-Email: $(MAIL)" \
