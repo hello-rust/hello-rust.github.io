@@ -85,9 +85,8 @@
             <img src="{{ resize_image(path=thumb, width=160, height=160, quality=100) }}" />
           </div>
           <p>
-            {{ page.content | safe | striptags | truncate }}
+            {{ page.summary | safe | striptags | truncate }}
           </p>
-
 
           <!-- TODO: modularize this so we don't repeat ourselves -->
           <div class='info'>

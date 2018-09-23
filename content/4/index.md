@@ -8,18 +8,16 @@ number = "4"
 
 {{youtube(id="S0Vubd-C5-o") }}
 
-<h2> I hack on a small application that will help me get better at touch typing.
- </h2>  
+## I hack on a small application that will help me get better at touch typing.
 
-<p>
 Not a tutorial, but just a fun hacking session to build a touch typing application using ggez - a game framework written in Rust.
 
 
-</p>
+<!-- more -->
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/4">&#x25b6;
-Run and edit the code on Gitpod</a>
+Run and edit code on Gitpod</a>
 
 ## Keywords
 

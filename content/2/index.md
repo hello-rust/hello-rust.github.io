@@ -8,18 +8,16 @@ number = "2"
 
 {{youtube(id="bS5rtxWd2yQ") }}
 
-<h2> Let's talk about Python and Rust. I used to do a lot more Python than I do now, but I still love it for its beauty.  
- </h2>  
+## Let's talk about Python and Rust. I used to do a lot more Python than I do now, but I still love it for its beauty.  
 
-<p>
 One of the first things I was missing in Rust when coming from Python were List Comprehensions.   It took me a while to figure out, that the Rust way - using iter(), filter(), and map() - actually is a better fit for the language.   I want to show you how to port Rust list comprehensions to Rust.
 
 
-</p>
+<!-- more -->
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/2">&#x25b6;
-Run and edit the code on Gitpod</a>
+Run and edit code on Gitpod</a>
 
 ## Keywords
 

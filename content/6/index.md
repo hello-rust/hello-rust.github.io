@@ -8,17 +8,15 @@ number = "6"
 
 {{youtube(id="XJPci7GI-qg") }}
 
-<h2> Let's fix a bug in my balanced brackets code and learn a few things about test organization and traits </h2>  
-
-<p>
+## Let's fix a bug in my balanced brackets code and learn a few things about test organization and traits
 There's some stuff to improve in my coding puzzle code from last time, balanced brackets. Can you spot the bug and fix it? I'll show you what's wrong and an idiomatic way to solve the problem.
 
 
-</p>
+<!-- more -->
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/6">&#x25b6;
-Run and edit the code on Gitpod</a>
+Run and edit code on Gitpod</a>
 
 ## Keywords
 
