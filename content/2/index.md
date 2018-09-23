@@ -42,7 +42,7 @@ Run and edit code on Gitpod</a>
 
 ## Resources and licenses
 
-* Intro song: Aries Beats - Night Ride (https://www.youtube.com/watch?v=AOvr_57BMZo)
+* Intro song: [Aries Beats - Night Ride](https://www.youtube.com/watch?v=AOvr_57BMZo)
 
 
 

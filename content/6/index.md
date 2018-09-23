@@ -30,7 +30,7 @@ Run and edit code on Gitpod</a>
 
 ## Resources and licenses
 
-* Comic suspense sound by tyops: https://freesound.org/people/tyops/sounds/347221/
+* [Comic suspense sound by tyops](https://freesound.org/people/tyops/sounds/347221/)
 * Background music: [Juanitos - Hola_Hola_Bossa_Nova](http://freemusicarchive.org/music/Juanitos/)
 
 

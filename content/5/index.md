@@ -25,9 +25,9 @@ Run and edit code on Gitpod</a>
 
 ## Things I mentioned during the show
 
-* Unreachable macro: https://doc.rust-lang.org/std/macro.unreachable.html
-* Into trait: https://doc.rust-lang.org/std/convert/trait.Into.html
-* Creating a Rust function that accepts String or &str: https://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html
+* [Unreachable macro](https://doc.rust-lang.org/std/macro.unreachable.html)
+* [Into trait](https://doc.rust-lang.org/std/convert/trait.Into.html)
+* [Creating a Rust function that accepts String or &str](https://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html)
 
 ## Things I should have mentioned (but forgot)
 

@@ -27,8 +27,8 @@ Run and edit code on Gitpod</a>
 * A nightly compiler is required. You can use [rustup](https://rustup.rs/) to install it.
 * To use your compiled module, run the Python interpreter outside of the project folder.
 * Here are a few ideas for your own module: Write a regex module based on Rust's re or write a str.replace method.
-* If you like this stuff check out [hyperjson](https://github.com/mre/hyperjson), a json module I wrote in Rust.
-* setup.py (for humans): https://github.com/kennethreitz/setup.py.
+* If you like this stuff check out [hyperjson](https://github.com/mre/hyperjson), a JSON module I wrote in Rust.
+* [setup.py (for humans)](https://github.com/kennethreitz/setup.py)
 
 ## Errata and improvements
 
@@ -46,12 +46,12 @@ Thanks to all contributors!
 
 ## Resources and licenses
 
-* B-Roll: Computer And The Mind Of Man Pt 3, The Universal Machine: https://archive.org/details/ComputerAndTheMindOfManP3TheUniversalMachine.
-* Radio static by LimitSnap_Creations: https://freesound.org/people/LimitSnap_Creations/sounds/279003/.
-* silent movie 0M_34pi by Setuniman: https://freesound.org/people/Setuniman/sounds/153470/.
-* 'Absurd' by David Fesliyan from http://fesliyanstudios.com/.
-* 'Moron' by David Fesliyan from http://fesliyanstudios.com/.
-* Baddum Tish - Comedy Rimshots.wav by rodincoil: https://freesound.org/people/rodincoil/sounds/271208/.
+* [B-Roll: Computer And The Mind Of Man Pt 3, The Universal Machine](https://archive.org/details/ComputerAndTheMindOfManP3TheUniversalMachine)
+* [Radio static by LimitSnap_Creations](https://freesound.org/people/LimitSnap_Creations/sounds/279003/)
+* [silent movie 0M_34pi by Setuniman](https://freesound.org/people/Setuniman/sounds/153470/)
+* ['Absurd' by David Fesliyan from](https://fesliyanstudios.com/)
+* ['Moron' by David Fesliyan from](http://fesliyanstudios.com/)
+* [Baddum Tish - Comedy Rimshots.wav by rodincoil](https://freesound.org/people/rodincoil/sounds/271208/)
 
 
 

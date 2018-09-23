@@ -24,16 +24,16 @@ Run and edit code on Gitpod</a>
 
 ## Things I mentioned during the show
 
-* Go in Practice book by Matt Butcher and Matt Farina (Manning Publications, 2016): https://www.manning.com/books/go-in-practice
-* Go in Practice example source code: https://github.com/Masterminds/go-in-practice
+* [Go in Practice book by Matt Butcher and Matt Farina (Manning Publications, 2016)](https://www.manning.com/books/go-in-practice)
+* [Go in Practice example source code](https://github.com/Masterminds/go-in-practice)
 * Golang provides tooling to help detect race conditions. E.g. try `go run --race` (see 'Go in Practice, p.70')
-* Explanation of the Rustlang race-condition prevention: https://stackoverflow.com/questions/30559073/cannot-borrow-captured-outer-variable-in-an-fn-closure-as-mutable
-* Amazing article about Rustlang iterator patterns by Karol Kuczmarski: http://xion.io/post/code/rust-iter-patterns.html
-* for_each method: https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.for_each
+* [Explanation of the Rustlang race-condition prevention](https://stackoverflow.com/questions/30559073/cannot-borrow-captured-outer-variable-in-an-fn-closure-as-mutable)
+* [Amazing article about Rustlang iterator patterns by Karol Kuczmarski](http://xion.io/post/code/rust-iter-patterns.html)
+* Rust's [for_each method](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.for_each]
 * [std::sync::Mutex](https://doc.rust-lang.org/std/sync/struct.Mutex.html)
-* Golang sync.Waitgroup: https://golang.org/pkg/sync/#WaitGroup
-* rayon crate for easy parallelism: https://github.com/rayon-rs/rayon
-* partition method: https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.partition
+* [Golang sync.Waitgroup](https://golang.org/pkg/sync/#WaitGroup)
+* [rayon crate for easy parallelism](https://github.com/rayon-rs/rayon)
+* [partition method](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.partition)
 
 ## Errata and improvements
 
@@ -52,10 +52,10 @@ Thanks to all contributors!
 
 ## Resources and licenses
 
-* Comedic Boing, A.wav by InspectorJ (www.jshaw.co.uk) of Freesound.org
-* Using 188709__setuniman__thoughts-1a37 by Setuniman (https://freesound.org/people/Setuniman/packs/9857/)
-* Yay sound by jbeetle https://freesound.org/people/jbeetle/sounds/274510/
-* piano-improv-prog-clumsy-raucous.wav by newagesoup https://freesound.org/people/newagesoup/sounds/341352/
+* [Comedic Boing, A.wav by InspectorJ of Freesound.org](www.jshaw.co.uk)
+* [Using 188709__setuniman__thoughts-1a37 by Setuniman](https://freesound.org/people/Setuniman/packs/9857/)
+* [Yay sound by jbeetle](https://freesound.org/people/jbeetle/sounds/274510/)
+* [piano-improv-prog-clumsy-raucous.wav by newagesoup](https://freesound.org/people/newagesoup/sounds/341352/)
 * [Crayon designed by Terdpongvector](https://www.freepik.com/free-vector/school-stuff-collection_1060700.htm)
 
 

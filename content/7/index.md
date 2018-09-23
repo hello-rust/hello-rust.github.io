@@ -45,9 +45,9 @@ Thanks to all contributors!
 
 ## Resources and licenses
 
-* Pizzicato by Setuniman: https://freesound.org/people/Setuniman/sounds/149827/
-* Lynx pizzicanto by filmistro: https://filmstro.com/music/pizzicato-strings
-* Bug image: https://www.freepik.com/free-vector/funny-insects-icon-set_1488662.htm#term=bug&page=1&position=9
+* [Pizzicato by Setuniman](https://freesound.org/people/Setuniman/sounds/149827/)
+* [Lynx pizzicanto by filmistro](https://filmstro.com/music/pizzicato-strings)
+* [Bug image](https://www.freepik.com/free-vector/funny-insects-icon-set_1488662.htm#term=bug&page=1&position=9)
 
 
 
