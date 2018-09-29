@@ -31,9 +31,12 @@ $link-color: #ed1249;
 //					  Typography 					//
 // -------------------------------------------------//
 
+body {
+	font-family: "Nunito",Helvetica,Arial,sans-serif;
+}
+
 // Headers
 h1,h2,h3,h4,h5,h6 {
-	font-family: "Nunito",Helvetica,Arial,sans-serif;
 	font-weight: 700;
 	margin-bottom: 12px;
 	line-height: 1.2;
@@ -80,7 +83,6 @@ hr {
 
 // paragraphs and lists
 p, ul, ol {
-	font-family: "Nunito",Helvetica,Arial,sans-serif;
 	font-weight: 300;
 	line-height: 1.5;
 	font-size: 20px;
@@ -155,7 +157,6 @@ pre, code {
 
 // Misc.
 .date, .info { // the small text that shows info related to dates, etc.
-	font-family: "Nunito",Helvetica,Arial,sans-serif;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -169,6 +170,10 @@ body {
 
 section {
 	margin: 46px 0;
+}
+
+a.episodelink:hover {
+	text-decoration: underline;
 }
 
 .container {
