@@ -77,33 +77,34 @@
     <h3 class="title">Episodes</h3>
     <div class="posts">
       {{ section.content }} {% for page in section.pages | reverse %}
-      <a class='header-link' href="{{ page.permalink }}">
-        <section>
+      <section>
+        <a class="episodelink" href="{{ page.permalink }}">
           <h4 class="title"><span class="highlight">#{{ page.extra.number }}</span> {{ page.title }} </h4>
-          <div class="thumb">
-            {% set thumb = page.extra.number ~ "/thumb.jpg" %}
-            <img src="{{ resize_image(path=thumb, width=160, height=160, quality=100) }}" />
-          </div>
-          <p>
-            {{ page.summary | safe | striptags | truncate }}
-          </p>
+        </a>
+        <div class="thumb">
+          {% set thumb = page.extra.number ~ "/thumb.jpg" %}
+          <img src="{{ resize_image(path=thumb, width=160, height=160, quality=100) }}" />
+        </div>
+        <p>
+          {{ page.summary | safe | striptags | truncate }}
+          <a class="episodelink" href="{{ page.permalink }}">continue reading...</a>
+        </p>
 
-          <!-- TODO: modularize this so we don't repeat ourselves -->
-          <div class='info'>
-            {% if page.date %}
-            <span class='divider' />
-            <span>{{ page.date | date(format="%d %B %Y") }}</span>
-            {% endif %} {% if page.category %}
-            <span class='divider' />
-            <!-- link to page category if user is building categories -->
-            {% if config.generate_categories_pages %}
-            <span><a href="/categories/{{page.category | slugify }}">{{ page.category }}</a></span>
-            {% else %}
-            <span>{{ page.category }}</span>
-            {% endif %} {% endif %}
-          </div>
-        </section>
-      </a>
+        <!-- TODO: modularize this so we don't repeat ourselves -->
+        <div class='info'>
+          {% if page.date %}
+          <span class='divider' />
+          <span>{{ page.date | date(format="%d %B %Y") }}</span>
+          {% endif %} {% if page.category %}
+          <span class='divider' />
+          <!-- link to page category if user is building categories -->
+          {% if config.generate_categories_pages %}
+          <span><a href="/categories/{{page.category | slugify }}">{{ page.category }}</a></span>
+          {% else %}
+          <span>{{ page.category }}</span>
+          {% endif %} {% endif %}
+        </div>
+      </section>
       <hr /> {% endfor %}
     </div>
   </div>

@@ -313,16 +313,6 @@ pre {
 	background-color: #111;
 }
 
-a.header-link {
-text-decoration: none;
-color: #414142;
-transition: 0.2s color ease;
-
-	&:hover {
-		color: black;
-	}
-}
-
 // Fade in images on load
 .container img {
 	display: block;
