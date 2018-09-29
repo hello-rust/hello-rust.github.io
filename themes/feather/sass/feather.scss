@@ -201,6 +201,24 @@ section {
 	}
 }
 
+.nav {
+	display: block;
+	text-align:center;
+	list-style-type: none;
+	margin:50px;
+}
+
+.nav li {
+	display: inline-block;
+	padding:10px;
+	background-color: $link-color;
+	border-radius: 4px;
+}
+
+.nav li a {
+	color: white;
+}
+
 
 .info {
 	padding: 0 $hpadding;

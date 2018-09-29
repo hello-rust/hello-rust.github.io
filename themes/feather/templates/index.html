@@ -45,9 +45,9 @@
 </head>
 
 <body>
-
   <a href="/">
-    <div class='header-image' style='background-image: url({% if config.extra.feather_header_image %}{{ config.extra.feather_header_image }}{% else %}/theme_images/default.gif{% endif %});'></div>
+    <div class='header-image' style='background-image: url({% if config.extra.feather_header_image %}{{ config.extra.feather_header_image }}{% else %}/theme_images/default.gif{% endif %});'>
+    </div>
   </a>
 
   {% block content %}
@@ -109,6 +109,11 @@
     </div>
   </div>
   {% endblock content %}
+
+  <ul class="nav">
+    <li><a href="https://www.youtube.com/hellorust?sub_confirmation=1">Subscribe on YouTube</a></li>
+    <li><a href="https://www.patreon.com/hellorust">Donate on Patreon</a></li>
+  </ul>
 
   <footer>
     Adapted from feather theme by <a href="https://github.com/piedoom/feather">doomy</a>&nbsp;&nbsp;-&nbsp;&nbsp;
