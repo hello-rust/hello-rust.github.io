@@ -8,11 +8,11 @@ number = "9"
 
 {{youtube(id="B5xYBrxVSiE") }}
 
-## It's hard to put into words what I like about Rust. Easier to show with a quick example about concurrency and borrowing.  
-
-<!-- more -->
+## It's hard to put into words what I like about Rust. Easier to show with a quick example about concurrency and borrowing.
 Capturing the "Magic of Rust" is not easy. Luckily, I found a simpler way: show how Rust prevents race-conditions and guides us towards a safe, idiomatic solution. We will port  a little Go CLI tool to Rust and compare both solutions in terms of safety, error handling, and concurrency patterns.
 
+
+<!-- more -->
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/9">&#x25b6;

@@ -8,11 +8,11 @@ number = "8"
 
 {{youtube(id="D9r__qxtRMQ") }}
 
-## Today, I want to show you how to write a Python extension in Rust using pyo3.  
-
-<!-- more -->
+## Today, I want to show you how to write a Python extension in Rust using pyo3.
 I like tinkering with programming languages and making things faster. What's cooler than combining those two things? With Rust you can write safe, fast extensions for dynamically typed programming languages like Python, PHP, or Ruby. That's why today i'd like to show you how to write a Python extension from scratch!
 
+
+<!-- more -->
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/8">&#x25b6;

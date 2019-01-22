@@ -8,11 +8,11 @@ number = "7"
 
 {{youtube(id="zb7SD0Jco6g") }}
 
-## Testing is hard, as can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest.  
-
-<!-- more -->
+## Testing is hard, as can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest.
 Let's take a look at proptest, a library for automatically generating testcases similar to quickcheck (of Haskell fame). We will parse informal english dates like "4th of September 1927" using Proptest and TDD.
 
+
+<!-- more -->
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/7">&#x25b6;

@@ -9,11 +9,11 @@ number = "5"
 {{youtube(id="XcuLHO8z_RA") }}
 
 ## Today we will do a quick interview question called "balanced brackets"
-  
 
-<!-- more -->
 I maintain a list of common interview questions on Github, that is perfect for some quick fun exercise from time to time. In this case I'd like to introduce you to a task called "balanced brackets", which is some sort of state machine, to check if an input consisting of brackets has exactly one closing bracket for each opening bracket. (Psst... I'm hiding a bug in my code, can you find it? 😉 Answer here: https://github.com/hello-rust/show/pull/31)
 
+
+<!-- more -->
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/5">&#x25b6;

@@ -9,7 +9,7 @@ number = "1"
 {{youtube(id="STWuPMcwwbw") }}
 
 ## This is the very first real coding episode of "Hello Rust!". Today we will write *hello world*, but by leveraging the builder pattern, enums, and traits to support different languages (hence the title "Hello Universe").
-  
+
 
 <!-- more -->
 
