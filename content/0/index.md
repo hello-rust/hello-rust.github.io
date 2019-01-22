@@ -9,15 +9,15 @@ number = "0"
 {{youtube(id="jMJRTjnh_jo") }}
 
 ## This is the very first episode of "Hello Rust!". I'm so excited!
+  
 
+<!-- more -->
 It is my lighthearted journey to become a fearless, more effective Rust programmer. And you can be part, too! My goal is to address beginner and intermediate Rust questions and show that systems programming can be a lot of fun. In this episode, I talk about the show and how I started with Rust. The show is clearly inspired by "JustForFunc" and "Fun Fun Function".
 
 
-<!-- more -->
-
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/0">&#x25b6;
-Run and edit code on Gitpod</a>
+Run and edit the code on Gitpod</a>
 
 ## Keywords
 

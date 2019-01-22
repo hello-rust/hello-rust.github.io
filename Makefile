@@ -4,7 +4,7 @@ export
 
 .PHONY: serve
 serve:
-	gutenberg serve
+	zola serve
 
 .PHONY: purge
 purge:

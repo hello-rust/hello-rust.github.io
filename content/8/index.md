@@ -8,15 +8,15 @@ number = "8"
 
 {{youtube(id="D9r__qxtRMQ") }}
 
-## Today, I want to show you how to write a Python extension in Rust using pyo3.
+## Today, I want to show you how to write a Python extension in Rust using pyo3.  
+
+<!-- more -->
 I like tinkering with programming languages and making things faster. What's cooler than combining those two things? With Rust you can write safe, fast extensions for dynamically typed programming languages like Python, PHP, or Ruby. That's why today i'd like to show you how to write a Python extension from scratch!
 
 
-<!-- more -->
-
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/8">&#x25b6;
-Run and edit code on Gitpod</a>
+Run and edit the code on Gitpod</a>
 
 ## Keywords
 
@@ -27,15 +27,12 @@ Run and edit code on Gitpod</a>
 * A nightly compiler is required. You can use [rustup](https://rustup.rs/) to install it.
 * To use your compiled module, run the Python interpreter outside of the project folder.
 * Here are a few ideas for your own module: Write a regex module based on Rust's re or write a str.replace method.
-* If you like this stuff check out [hyperjson](https://github.com/mre/hyperjson), a JSON module I wrote in Rust.
-* [setup.py (for humans)](https://github.com/kennethreitz/setup.py)
+* If you like this stuff check out [hyperjson](https://github.com/mre/hyperjson), a json module I wrote in Rust.
+* setup.py (for humans): https://github.com/kennethreitz/setup.py.
 
 ## Errata and improvements
 
-It might come as a surprise to you, but every once in a while *even I* make a mistake.  
-This section covers all improvements made to the code since the epsiode went live.  
-For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/8).
-Thanks to all contributors!  
+It might come as a surprise to you, but every once in a while *even I* make a mistake. This section covers all improvements made to the code since the episode went live. For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/8). Thanks to all contributors!
 
 * Update code to work with latest version of pyo3; formatting and cleanup for stabilizations. See [changes here](https://github.com/hello-rust/show/pull/47).
 
@@ -46,12 +43,12 @@ Thanks to all contributors!
 
 ## Resources and licenses
 
-* [B-Roll: Computer And The Mind Of Man Pt 3, The Universal Machine](https://archive.org/details/ComputerAndTheMindOfManP3TheUniversalMachine)
-* [Radio static by LimitSnap_Creations](https://freesound.org/people/LimitSnap_Creations/sounds/279003/)
-* [silent movie 0M_34pi by Setuniman](https://freesound.org/people/Setuniman/sounds/153470/)
-* ['Absurd' by David Fesliyan from](https://fesliyanstudios.com/)
-* ['Moron' by David Fesliyan from](http://fesliyanstudios.com/)
-* [Baddum Tish - Comedy Rimshots.wav by rodincoil](https://freesound.org/people/rodincoil/sounds/271208/)
+* B-Roll: Computer And The Mind Of Man Pt 3, The Universal Machine: https://archive.org/details/ComputerAndTheMindOfManP3TheUniversalMachine.
+* Radio static by LimitSnap_Creations: https://freesound.org/people/LimitSnap_Creations/sounds/279003/.
+* silent movie 0M_34pi by Setuniman: https://freesound.org/people/Setuniman/sounds/153470/.
+* 'Absurd' by David Fesliyan from http://fesliyanstudios.com/.
+* 'Moron' by David Fesliyan from http://fesliyanstudios.com/.
+* Baddum Tish - Comedy Rimshots.wav by rodincoil: https://freesound.org/people/rodincoil/sounds/271208/.
 
 
 

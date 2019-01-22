@@ -9,15 +9,15 @@ number = "5"
 {{youtube(id="XcuLHO8z_RA") }}
 
 ## Today we will do a quick interview question called "balanced brackets"
+  
 
+<!-- more -->
 I maintain a list of common interview questions on Github, that is perfect for some quick fun exercise from time to time. In this case I'd like to introduce you to a task called "balanced brackets", which is some sort of state machine, to check if an input consisting of brackets has exactly one closing bracket for each opening bracket. (Psst... I'm hiding a bug in my code, can you find it? 😉 Answer here: https://github.com/hello-rust/show/pull/31)
 
 
-<!-- more -->
-
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/5">&#x25b6;
-Run and edit code on Gitpod</a>
+Run and edit the code on Gitpod</a>
 
 ## Keywords
 
@@ -25,9 +25,9 @@ Run and edit code on Gitpod</a>
 
 ## Things I mentioned during the show
 
-* [Unreachable macro](https://doc.rust-lang.org/std/macro.unreachable.html)
-* [Into trait](https://doc.rust-lang.org/std/convert/trait.Into.html)
-* [Creating a Rust function that accepts String or &str](https://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html)
+* Unreachable macro: https://doc.rust-lang.org/std/macro.unreachable.html
+* Into trait: https://doc.rust-lang.org/std/convert/trait.Into.html
+* Creating a Rust function that accepts String or &str: https://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html
 
 ## Things I should have mentioned (but forgot)
 
