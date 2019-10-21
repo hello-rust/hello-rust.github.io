@@ -26,7 +26,7 @@ Run and edit the code on Gitpod</a>
 ## Things I mentioned during the show
 
 * [Steve Klabnik - The History of Rust, 2015](https://www.youtube.com/watch?v=79PSagCD_AY)
-* [My Blog, where it all started](http://matthias-endler.de/)
+* [My Blog, where it all started](https://endler.dev)
 * [Rust Cologne - Our monthly meetup](http://www.meetup.com/de/Rust-Cologne-Bonn/)
 
 ## Things I should have mentioned (but forgot)
