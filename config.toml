@@ -12,4 +12,4 @@ generate_rss = true
 
 [extra]
 feather_header_image = "/hellorust.svg"
-feather_donate_link = "https://www.patreon.com/hellorust"
+feather_donate_link = "https://github.com/sponsors/mre/"
