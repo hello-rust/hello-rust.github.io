@@ -1,3 +1,5 @@
-# The official "Hello, Rust!" website.
+# The official "Hello, Rust!" website
 
-This was built using the awesome [zola](https://www.getzola.org/)!
+![Build Status](https://github.com/hello-rust/hello-rust.github.io/workflows/CI/badge.svg)
+
+Built with [zola](https://www.getzola.org/) ❤️
