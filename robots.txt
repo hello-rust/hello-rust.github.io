@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://hello-rust.show/sitemap.xml
