@@ -83,7 +83,8 @@
         </a>
         <div class="thumb">
           {% set thumb = page.extra.number ~ "/thumb.jpg" %}
-          <img src="{{ resize_image(path=thumb, width=160, height=160, quality=100) }}" />
+          {% set image = resize_image(path=thumb, width=160, height=160, quality=100) %}
+          <img src="{{ image.url }}" />
         </div>
         <p>
           {{ page.summary | striptags | truncate | safe  }}
