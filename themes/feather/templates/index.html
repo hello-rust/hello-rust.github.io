@@ -86,7 +86,7 @@
           <img src="{{ resize_image(path=thumb, width=160, height=160, quality=100) }}" />
         </div>
         <p>
-          {{ page.summary | safe | striptags | truncate }}
+          {{ page.summary | striptags | truncate | safe  }}
           <a class="episodelink" href="{{ page.permalink }}">continue reading...</a>
         </p>
 
