@@ -2,8 +2,8 @@
 -include .env
 export
 
-.PHONY: serve run
-serve run:
+.PHONY: serve run dev
+serve run dev:
 	zola serve
 
 .PHONY: purge
