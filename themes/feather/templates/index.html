@@ -1,137 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
 
-  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <!-- css -->
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/feather.css" />
 
-  <!-- css -->
-  <link rel="stylesheet" href="/reset.css">
-  <link rel="stylesheet" href="/feather.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
 
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-  <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet" type="text/css">
+    <!-- js -->
+    {% if config.extra.feather_analytics %} {{ config.extra.feather_analytics |
+    safe }} {% endif %} {% if config.generate_rss %} <link rel="alternate"
+    type="application/rss+xml" title="RSS" href="{{ get_url(path=" rss.xml ",
+    trailing_slash=false) }}"> {% endif %} {% block extra_head %} {% endblock
+    extra_head %}
+  </head>
 
-  <!-- js -->
-  {% if config.extra.feather_analytics %} {{ config.extra.feather_analytics | safe
-  }}
-  {% endif %} {% if config.generate_rss %}
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path=" rss.xml ", trailing_slash=false) }}">
-  {%
-  endif %} {% block extra_head %} {% endblock extra_head %}
-</head>
-
-<body>
-  <a href="/">
-    <div class='header-image' style='background-image: url({% if config.extra.feather_header_image %}{{ config.extra.feather_header_image }}{% else %}/theme_images/default.gif{% endif %});'>
+  <body>
+    <div class="banner">
+      <div class="container container-wide">
+        <strong>Update:</strong> I'm available for Rust consulting through
+        <a href="https://corrode.dev">corrode.dev</a>.
+      </div>
     </div>
-  </a>
 
-  {% block content %}
-  <div class="container">
-    <div class="posts">
-      <section>
-        <h3 class="title">About</h3>
-        <p>
-          "Hello, Rust!" is a lighthearted live-programming channel about
-          my journey to become a fearless, more
-          effective
-          <a href="https://www.rust-lang.org/">Rust</a>
-          programmer. My goal is to address beginner and intermediate Rust questions and show that systems programming
-          can
-          be
-          a lot of fun!
+    <a href="/">
+      <div
+        class="header-image"
+        style="background-image: url({% if config.extra.feather_header_image %}{{ config.extra.feather_header_image }}{% else %}/theme_images/default.gif{% endif %});"
+      ></div>
+    </a>
 
-          Fair warning: To follow along, it's best if you already <a href="https://doc.rust-lang.org/book/">read the
-            book</a>, since I won't cover most of the basics
-          in
-          my
-          videos.
-        </p>
-      </section>
-      <section>
-        <h3 class="title">Consulting</h3>
-        <p>
-          I'm available for professional consulting through my consultancy, <a href="https://corrode.dev">corrode</a>.
-          If you're looking for help with Rust, I'd love to hear from you!
-        </p>
-      </section>
+    {% block content %}
+    <div class="container">
+      <div class="posts">
+        <section>
+          <h3 class="title">About</h3>
+          <p>
+            "Hello, Rust!" is a lighthearted live-programming channel about my
+            journey to become a fearless, more effective
+            <a href="https://www.rust-lang.org/">Rust</a>
+            programmer. My goal is to address beginner and intermediate Rust
+            questions and show that systems programming can be a lot of fun!
+            Fair warning: To follow along, it's best if you already
+            <a href="https://doc.rust-lang.org/book/">read the book</a>, since I
+            won't cover most of the basics in my videos.
+          </p>
+        </section>
+        <section>
+          <h3 class="title">Consulting</h3>
+          <p>
+            I'm available for professional consulting through my consultancy,
+            <a href="https://corrode.dev">corrode</a>. If you're looking for
+            help with Rust, I'd love to hear from you!
+          </p>
+        </section>
+      </div>
+
+      <h3 class="title">Episodes</h3>
+      <div class="posts">
+        {{ section.content }} {% for page in section.pages | reverse %}
+        <section>
+          <a class="episodelink" href="{{ page.permalink }}">
+            <h4 class="title">
+              <span class="highlight">#{{ page.extra.number }}</span> {{
+              page.title }}
+            </h4>
+          </a>
+          <div class="thumb">
+            {% set thumb = page.extra.number ~ "/thumb.jpg" %} {% set image =
+            resize_image(path=thumb, width=160, height=160, quality=100) %}
+            <img src="{{ image.url }}" />
+          </div>
+          <p>
+            {{ page.summary | striptags | truncate | safe }}
+            <a class="episodelink" href="{{ page.permalink }}"
+              >continue reading...</a
+            >
+          </p>
+
+          <!-- TODO: modularize this so we don't repeat ourselves -->
+          <div class="info">
+            {% if page.date %}
+            <span class="divider" />
+            <span>{{ page.date | date(format="%d %B %Y") }}</span>
+            {% endif %} {% if page.category %}
+            <span class="divider" />
+            <!-- link to page category if user is building categories -->
+            {% if config.generate_categories_pages %}
+            <span
+              ><a href="/categories/{{page.category | slugify }}"
+                >{{ page.category }}</a
+              ></span
+            >
+            {% else %}
+            <span>{{ page.category }}</span>
+            {% endif %} {% endif %}
+          </div>
+        </section>
+        <hr />
+        {% endfor %}
+      </div>
     </div>
+    {% endblock content %}
 
-    <h3 class="title">Episodes</h3>
-    <div class="posts">
-      {{ section.content }} {% for page in section.pages | reverse %}
-      <section>
-        <a class="episodelink" href="{{ page.permalink }}">
-          <h4 class="title"><span class="highlight">#{{ page.extra.number }}</span> {{ page.title }} </h4>
-        </a>
-        <div class="thumb">
-          {% set thumb = page.extra.number ~ "/thumb.jpg" %}
-          {% set image = resize_image(path=thumb, width=160, height=160, quality=100) %}
-          <img src="{{ image.url }}" />
-        </div>
-        <p>
-          {{ page.summary | striptags | truncate | safe  }}
-          <a class="episodelink" href="{{ page.permalink }}">continue reading...</a>
-        </p>
+    <ul class="nav">
+      <li>
+        <a href="https://www.youtube.com/hellorust?sub_confirmation=1"
+          >Subscribe on YouTube</a
+        >
+      </li>
+      <li><a href="https://github.com/sponsors/mre/">Sponsor on Github</a></li>
+    </ul>
 
-        <!-- TODO: modularize this so we don't repeat ourselves -->
-        <div class='info'>
-          {% if page.date %}
-          <span class='divider' />
-          <span>{{ page.date | date(format="%d %B %Y") }}</span>
-          {% endif %} {% if page.category %}
-          <span class='divider' />
-          <!-- link to page category if user is building categories -->
-          {% if config.generate_categories_pages %}
-          <span><a href="/categories/{{page.category | slugify }}">{{ page.category }}</a></span>
-          {% else %}
-          <span>{{ page.category }}</span>
-          {% endif %} {% endif %}
-        </div>
-      </section>
-      <hr /> {% endfor %}
-    </div>
-  </div>
-  {% endblock content %}
-
-  <ul class="nav">
-    <li><a href="https://www.youtube.com/hellorust?sub_confirmation=1">Subscribe on YouTube</a></li>
-    <li><a href="https://github.com/sponsors/mre/">Sponsor on Github</a></li>
-  </ul>
-
-  <footer>
-    Adapted from feather theme by <a href="https://github.com/piedoom/feather">doomy</a>&nbsp;&nbsp;-&nbsp;&nbsp;
-    Built
-    with <a href="https://github.com/getzola/zola">zola</a>
-    {% if config.extra.feather_donate_link %}&nbsp;&nbsp;-&nbsp;&nbsp; <a href={{config.extra.feather_donate_link}}>Sponsor
-      on Github ❤️</a>
-    {% endif %}
-  </footer>
-
-</body>
-
+    <footer>
+      Adapted from feather theme by
+      <a href="https://github.com/piedoom/feather">doomy</a
+      >&nbsp;&nbsp;-&nbsp;&nbsp; Built with
+      <a href="https://github.com/getzola/zola">zola</a> {% if
+      config.extra.feather_donate_link %}&nbsp;&nbsp;-&nbsp;&nbsp;
+      <a href="{{config.extra.feather_donate_link}}">Sponsor on Github ❤️</a>
+      {% endif %}
+    </footer>
+  </body>
 </html>
