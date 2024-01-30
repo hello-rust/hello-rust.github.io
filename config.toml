@@ -1,4 +1,4 @@
-base_url = "hello-rust.github.io"
+base_url = "https://hello-rust.github.io"
 compile_sass = false
 theme = "feather"
 highlight_code = true
