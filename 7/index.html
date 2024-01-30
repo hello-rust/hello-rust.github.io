@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <title>Hello, Rust!</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/feather.css" />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- js -->
+       
+  </head>
+
+  <body>
+    <div class="banner">
+      <div class="container container-wide">
+        <strong>Update:</strong> I'm available for Rust consulting through
+        <a href="https://corrode.dev">corrode.dev</a>.
+      </div>
+    </div>
+
+    <a href="/">
+      <div
+        class="header-image"
+        style="background-image: url(&#x2F;hellorust.svg);"
+      ></div>
+    </a>
+
+    
+<div class='container'>
+	<section class="post">
+		<div class="title-and-info">
+			<h4>Episode #7</h4>
+			<h2>Parsing dates using proptest and TDD</h2>
+			<div class="info">
+				 
+
+			</div>
+		</div>
+		<article>
+			<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/zb7SD0Jco6g"
+        webkitallowfullscreen mozallowfullscreen allowfullscreen>
+    </iframe>
+</div><h2 id="testing-is-hard-as-can-be-seen-in-the-last-two-episodes-that-s-why-i-looked-around-for-better-alternatives-and-found-proptest">Testing is hard, as can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest.</h2>
+<p>Let's take a look at proptest, a library for automatically generating testcases similar to quickcheck (of Haskell fame). We will parse informal english dates like &quot;4th of September 1927&quot; using Proptest and TDD.</p>
+<span id="continue-reading"></span>
+<p><a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/7">▶
+Run and edit the code on Gitpod</a></p>
+<h2 id="keywords">Keywords</h2>
+<p><em>Property testing, Quickcheck, Unit testing, Fuzzy testing, TDD</em></p>
+<h2 id="things-i-mentioned-during-the-show">Things I mentioned during the show</h2>
+<ul>
+<li><a href="https://github.com/AltSysrq/proptest">Proptest</a> crate by Jason Lingle</li>
+<li><a href="https://github.com/BurntSushi/quickcheck">Quickcheck crate for Rust</a> by Andrew Gallant</li>
+<li><a href="https://en.wikipedia.org/wiki/QuickCheck">History of quickcheck</a></li>
+<li><a href="https://github.com/stevedonovan/chrono-english">Chrono english crate</a> by Steve J Donovan</li>
+</ul>
+<h2 id="errata-and-improvements">Errata and improvements</h2>
+<p>It might come as a surprise to you, but every once in a while <em>even I</em> make a mistake. This section covers all improvements made to the code since the episode went live. For an exhaustive list of all changes to the original code, <a href="https://github.com/hello-rust/show/commits/master/episode/7">go here</a>. Thanks to all contributors!</p>
+<ul>
+<li><a href="https://github.com/vikrrrr">vikrrrr</a> found <a href="https://github.com/hello-rust/show/pull/42">a beautiful way to parse the month using Option::map</a>.</li>
+</ul>
+<h2 id="meta">Meta</h2>
+<ul>
+<li>I prefer to use <code>ok_or_else</code> as <code>ok_or</code> evaluates eagerly and <a href="https://github.com/rust-lang/rust/issues/51292">might get deprecated</a></li>
+</ul>
+<h2 id="resources-and-licenses">Resources and licenses</h2>
+<ul>
+<li>Pizzicato by Setuniman: https://freesound.org/people/Setuniman/sounds/149827/</li>
+<li>Lynx pizzicanto by filmistro: https://filmstro.com/music/pizzicato-strings</li>
+<li>Bug image: https://www.freepik.com/free-vector/funny-insects-icon-set_1488662.htm#term=bug&amp;page=1&amp;position=9</li>
+</ul>
+<h2 id="support">Support!</h2>
+<p>Preparing, recording, and editing an episode takes a substantial amount of time
+(around 30 hours total). I do all of this next to my fulltime dayjob.
+If you want to show your appreciation and help me keep the content free
+for everybody to enjoy, <a href="https://github.com/sponsors/mre/">please consider sponsoring me on
+Github</a> - no matter the amount. ❤️</p>
+
+		</article>
+	</section>
+</div>
+
+
+    <ul class="nav">
+      <li>
+        <a href="https://www.youtube.com/hellorust?sub_confirmation=1"
+          >Subscribe on YouTube</a
+        >
+      </li>
+      <li><a href="https://github.com/sponsors/mre/">Sponsor on Github</a></li>
+    </ul>
+
+    <footer>
+      Adapted from feather theme by
+      <a href="https://github.com/piedoom/feather">doomy</a
+      >&nbsp;&nbsp;-&nbsp;&nbsp; Built with
+      <a href="https://github.com/getzola/zola">zola</a> &nbsp;&nbsp;-&nbsp;&nbsp;
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;sponsors&#x2F;mre&#x2F;">Sponsor on Github ❤️</a>
+      
+    </footer>
+  </body>
+</html>
