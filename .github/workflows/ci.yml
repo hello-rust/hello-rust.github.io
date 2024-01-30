@@ -6,14 +6,16 @@ on:
   pull_request:
     branches:
       - source
+  workflow_dispatch:
+
 jobs:
   build:
     name: shalzz/zola-deploy-action
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: shalzz/zola-deploy-action@master
-      env:
-        PAGES_BRANCH: master
-        BUILD_DIR: .
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@master
+      - uses: shalzz/zola-deploy-action@master
+        env:
+          PAGES_BRANCH: master
+          BUILD_DIR: .
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
